@@ -12,5 +12,5 @@ service PostService {
     CUDResult.CUDResult createWithTags(1:Post.Post post, 2: list<Tag.Tag> tagList),
     CUDResult.CUDResult update(1:Post.Post post),
     CUDResult.CUDResult updateWithTags(1:Post.Post post, 2: list<Tag.Tag> tagList),
-    CUDResult.CUDResult deleteById(1:int id),
+    CUDResult.CUDResult deleteById(1:i32 id),
 }
