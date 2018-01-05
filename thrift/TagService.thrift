@@ -9,5 +9,5 @@ service TagService {
     list<Tag.Tag> find(1: Query.Query query),
     CUDResult.CUDResult create(1: Tag.Tag tag),
     CUDResult.CUDResult update(1: Tag.Tag tag),
-    CUDResult.CUDResult deleteById(1: i32 id),
+    CUDResult.CUDResult deleteById(1: int id),
 }

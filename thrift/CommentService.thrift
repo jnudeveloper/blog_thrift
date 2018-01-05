@@ -9,5 +9,5 @@ service CommentService {
     list<Comment.Comment> find(1: Query.Query query),
     CUDResult.CUDResult create(1: Comment.Comment comment),
     CUDResult.CUDResult update(1: Comment.Comment comment),
-    CUDResult.CUDResult deleteById(1: i32 id),
+    CUDResult.CUDResult deleteById(1: int id),
 }
