@@ -4,7 +4,7 @@ include 'CUDResult.thrift'
 include 'Tag.thrift'
 
 namespace java com.blog.thrift.service
-namespace php common.thrift.gen.service
+namespace php thriftgen.service
 
 service PostService {
     list<Post.Post> find(1:Query.Query query),

@@ -1,5 +1,5 @@
 namespace java com.blog.thrift.service
-namespace php common.thrift.gen.service
+namespace php thriftgen.service
 
 typedef i32 int 
 

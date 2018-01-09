@@ -1,7 +1,7 @@
 include 'Condition.thrift'
 
 namespace java com.blog.thrift.domain
-namespace php common.thrift.gen.domain
+namespace php thriftgen.domain
 
 struct Query {
     1: bool distinct,

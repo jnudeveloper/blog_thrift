@@ -1,5 +1,5 @@
 namespace java com.blog.thrift.domain
-namespace php common.thrift.gen.domain
+namespace php thriftgen.domain
 
 struct CUDResult {
     1: i32 code, // 错误码, 成功：0

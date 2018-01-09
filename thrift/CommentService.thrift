@@ -3,7 +3,7 @@ include 'CUDResult.thrift'
 include 'Query.thrift'
 
 namespace java com.blog.thrift.service
-namespace php common.thrift.gen.service
+namespace php thriftgen.service
 
 service CommentService {
     list<Comment.Comment> find(1: Query.Query query),
