@@ -7,10 +7,10 @@ namespace java com.blog.thrift.service
 namespace php thriftgen.service
 
 service PostService {
-    list<Post.Post> find(1:Query.Query query),
-    CUDResult.CUDResult create(1:Post.Post post),
-    CUDResult.CUDResult createWithTags(1:Post.Post post, 2: list<Tag.Tag> tagList),
-    CUDResult.CUDResult update(1:Post.Post post),
-    CUDResult.CUDResult updateWithTags(1:Post.Post post, 2: list<Tag.Tag> tagList),
-    CUDResult.CUDResult deleteById(1:i32 id),
+    list<Post.TPost> find(1:Query.TQuery query),
+    CUDResult.TCUDResult create(1:Post.TPost post),
+    CUDResult.TCUDResult createWithTags(1:Post.TPost post, 2: list<Tag.TTag> tagList),
+    CUDResult.TCUDResult update(1:Post.TPost post),
+    CUDResult.TCUDResult updateWithTags(1:Post.TPost post, 2: list<Tag.TTag> tagList),
+    CUDResult.TCUDResult deleteById(1:i32 id),
 }

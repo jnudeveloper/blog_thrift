@@ -1,7 +1,7 @@
 namespace java com.blog.thrift.domain
 namespace php thriftgen.domain
 
-struct Query {
+struct TQuery {
     1: string where,
     2: i32 limit,
     3: i32 offset,

@@ -6,8 +6,8 @@ namespace java com.blog.thrift.service
 namespace php thriftgen.service
 
 service TagService {
-    list<Tag.Tag> find(1: Query.Query query),
-    CUDResult.CUDResult create(1: Tag.Tag tag),
-    CUDResult.CUDResult update(1: Tag.Tag tag),
-    CUDResult.CUDResult deleteById(1: i32 id),
+    list<Tag.TTag> find(1: Query.TQuery query),
+    CUDResult.TCUDResult create(1: Tag.TTag tag),
+    CUDResult.TCUDResult update(1: Tag.TTag tag),
+    CUDResult.TCUDResult deleteById(1: i32 id),
 }

@@ -1,7 +1,7 @@
 namespace java com.blog.thrift.domain
 namespace php thriftgen.domain
 
-struct Post {
+struct TPost {
     1: i32 id,
     2: string title,
     3: string summary,

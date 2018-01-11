@@ -1,7 +1,7 @@
 namespace java com.blog.thrift.domain
 namespace php thriftgen.domain
 
-struct Comment {
+struct TComment {
     1: i32 id,
     2: i32 post_id,
     3: i32 parent_id,

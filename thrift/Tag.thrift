@@ -1,7 +1,7 @@
 namespace java com.blog.thrift.domain
 namespace php thriftgen.domain
 
-struct Tag {
+struct TTag {
     1: i32 id,
     2: string name,
     3: i32 frequency,
