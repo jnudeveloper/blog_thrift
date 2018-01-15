@@ -8,6 +8,8 @@ namespace php thriftgen.service
 
 service PostService {
     list<Post.TPost> find(1:Query.TQuery query),
+    list<Post.TPost> findAll(),
+    Post.TPost findById(1:i32 id),
     CUDResult.TCUDResult create(1:Post.TPost post),
     CUDResult.TCUDResult createWithTags(1:Post.TPost post, 2: list<Tag.TTag> tagList),
     CUDResult.TCUDResult update(1:Post.TPost post),
