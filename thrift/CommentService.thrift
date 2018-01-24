@@ -2,7 +2,7 @@ include 'Comment.thrift'
 include 'CUDResult.thrift'
 include 'Query.thrift'
 
-namespace java com.blog.thrift.service
+namespace java com.jnudeveloper.blog.thriftgen.service
 namespace php thriftgen.service
 
 service CommentService {

@@ -1,4 +1,4 @@
-namespace java com.blog.thrift.domain
+namespace java com.jnudeveloper.blog.thriftgen.domain
 namespace php thriftgen.domain
 
 struct TQuery {

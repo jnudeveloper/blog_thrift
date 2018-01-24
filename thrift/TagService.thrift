@@ -2,7 +2,7 @@ include 'Tag.thrift'
 include 'Query.thrift'
 include 'CUDResult.thrift'
 
-namespace java com.blog.thrift.service
+namespace java com.jnudeveloper.blog.thriftgen.service
 namespace php thriftgen.service
 
 service TagService {
