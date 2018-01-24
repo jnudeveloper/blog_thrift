@@ -3,12 +3,12 @@ namespace php thriftgen.domain
 
 struct TComment {
     1: i32 id,
-    2: i32 post_id,
-    3: i32 parent_id,
+    2: i32 postId,
+    3: i32 parentId,
     4: i32 status,
     5: string content,
-    6: i32 create_time,
-    7: i32 update_time,
-    8: i32 author_id,
-    9: i32 approve_num,
+    6: i32 createTime,
+    7: i32 updateTime,
+    8: i32 authorId,
+    9: i32 approveNum,
 }
