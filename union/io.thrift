@@ -10,6 +10,7 @@ struct Request
     4:string requestId,    // 请求ID，追踪调试用
     5:i64    requestTime,  // 请求时间/毫秒
     6:string data,         // 请求数据（json encode后）
+    7:string version,      // 版本号
 }
 
 // 输出结构
